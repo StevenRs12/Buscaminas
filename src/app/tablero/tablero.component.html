@@ -1,0 +1,20 @@
+
+<!-- <h1>Buscaminas</h1> -->
+<br>
+<div>
+
+    <table class="egt">
+
+        <tr *ngFor="let columna of tableroBuscaminas; let i=index">
+      
+          <td *ngFor="let columna of tableroBuscaminas[i]; let j=index" (click)="clickCasilla(i,j)">
+            <div *ngIf="tableroSuperficial[i][j]==1">
+              {{tableroBuscaminas[i][j]}}
+            </div>
+          </td>
+      
+        </tr>
+      
+      </table>
+
+</div>

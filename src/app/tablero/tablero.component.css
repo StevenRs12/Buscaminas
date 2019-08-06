@@ -1,0 +1,17 @@
+.egt td{   
+padding: .2em .8em;
+border: 1px solid rgba(16,76,167,0.25);
+background: rgba(90,156,255,0.25);
+text-align: center;
+width: 40px;
+height: 40px;
+}
+
+:host ::ng-deep table {
+    margin: auto;
+    border-collapse: separate;
+}
+
+:host ::ng-deep  h1{
+    text-align: center;
+}
